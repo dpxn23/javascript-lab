@@ -61,7 +61,7 @@ let c2 = (f2 - 32) * 5/9
 console.log(`${f2}°F is ${c2}°C`)
 
 let eleFive = document.querySelector(`#ex5`)
-eleFive.textContent = `${celsius}°C is ${fahrenheit}°F and ${fahrenheitTemp}°F is ${celciusTemp}°C.`
+eleFive.textContent = `${c2}°C is ${f2}°F and ${f2}°F is ${c2}°C.`
 
 // EXERCISE 6
 // Write a function named squareNumber that will take one argument 
@@ -97,7 +97,7 @@ console.log (`Half of ${x} is ${halfResult}.`);
 let eleSeven = document.querySelector("#ex7"); 
 eleSeven.textContent = (`Half of ${x} is ${halfResult}.`);
 
-// EXERCISE 3
+// EXERCISE 8
 // Write a function named percentOf that will take two numbers, figure out what percent the first number represents of the second number, and return the result. It should also log a string like "2 is 50% of 4."
 
 function percentOf(x,y) {
@@ -119,7 +119,7 @@ eleEight.textContent = (`${x} is ${percentResult}% of ${y}.`);
 //      Bonus: Round the result so there are only two digits after the decimal.
 
 function areaOfCircle (rad) {
-    let area = Math.PI * (rad ** 2)\
+    let area = Math.PI * (rad ** 2)
 
     console.log(`The area for a circle with radius ${rad} is ${area.toFixed(2)}.`)
     return area
