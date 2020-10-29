@@ -52,5 +52,5 @@ console.log(`${f2}°F is ${c2}°C`)
 
 
 
-let eleOne = document.querySelector(".ex1"); 
-eleOne.textContent = (`You will be a ${jobTitle} in ${myLocation}, making $${annualSalary} for ${companyName}.`)
+let eleOne = document.querySelector(`#ex1`)
+eleOne.textContent = `You will be a ${jobTitle} in ${geoLocation}, making $${annualSalary} for ${companyName}.`
