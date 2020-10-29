@@ -8,6 +8,9 @@ let companyName = 'Gucci'
 
 console.log(`You will be a ${jobTitle} in ${myLocation} , making $${annualSalary} for ${companyName}`)
 
+let eleOne = document.querySelector(`#ex1`)
+eleOne.textContent = `You will be a ${jobTitle} in ${myLocation}, making $${annualSalary} for ${companyName}.`
+
 //EXERCISE 2: The Age Calculator
 //Forgot how old someone is? Calculate it! Store the current year in a variable. Store their birth year in a variable. Calculate their age based on the stored values. Output them to the console like so: "They are NN years old.", substituting the values.
 
@@ -66,5 +69,4 @@ eleFive.textContent = `${celsius}°C is ${fahrenheit}°F and ${fahrenheitTemp}°
 //It should also log a string like "The result of squaring the number 3 is 9."
 
 
-let eleOne = document.querySelector(`#ex1`)
-eleOne.textContent = `You will be a ${jobTitle} in ${geoLocation}, making $${annualSalary} for ${companyName}.`
+
