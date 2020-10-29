@@ -47,3 +47,10 @@ let f2 = 100
 let c2 = (f2 - 32) * 5/9
 
 console.log(`${f2}°F is ${c2}°C`)
+
+
+
+
+
+let eleOne = document.querySelector(".ex1"); 
+eleOne.textContent = (`You will be a ${jobTitle} in ${myLocation}, making $${annualSalary} for ${companyName}.`)
