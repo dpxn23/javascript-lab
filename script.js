@@ -137,3 +137,16 @@ eleNine.textContent = `The area for a circle with radius 7 is ${areaOfCircle(7).
 //      3. Calculate the area of a circle with the result of #2 as the radius.   
 //      4. Calculate what percentage that area (#3) is of the squared result (#2).
 
+function runAll (num) {
+    var x = 20;
+    x /= 2; //1.
+    x ** 2; //2.
+    Math.PI * x ** 2; //3.
+    x / 100; //4.
+
+    console.log(`Running the number "20" through all sequences gives you ${x}.`)
+    return result
+}
+
+let eleTen = document.querySelector(`#ex10`)
+eleTen.textContent = `Running the number "20" through all sequences gives you ${x}.`
